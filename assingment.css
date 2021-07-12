@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(218, 208, 208);
+}
+.continer{
+    display: grid;
+    grid-template-rows: 3 ;
+    height: 600px;
+    width : 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 60px;
+    background-color: rgb(211, 203, 203);
+    padding: 0;
+}
+
+ul.tm1 li {
+    display: inline;
+    text-decoration:none ;
+    margin: 30px;
+}
+
+li a {
+text-decoration: none;
+color: black;
+}
+ul.tm{
+margin-left: 16px;
+    margin-right: auto;
+    
+}
+ul.tm li {
+    display: block;
+    text-decoration: none;
+    margin: 40px;
+    font-size: x-small;
+}
+.thirdclass{
+    width: 200px;
+}
+.secondcard {
+background-color: white;
+width: 150px;
+margin-top: 0;
+}
+.logo{
+    display: block;
+    width:100%;
+    margin: 0px;
+
+}
+
+
+
+
+.fristcard{
+ position: absolute;
+ right: 16%;
+ margin-top: 35px;
+    font-size: small;
+    text-align: center;
+    width: 100%;
+}
+
+.thirdcard{
+    display: grid;
+    position: absolute;
+    left: 17%;
+    top:25%;
+    grid-template-columns: 220px 220px;
+    grid-gap: 10px;
+    background-color:transparent;
+    width: 50%;
+}
+.grid-item{
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    height: 200px;
+    border-radius: 5px;
+}
+.thirdcard img {
+   width: 160px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20%;
+    
+}
+.fourcard{
+    background-color: white;
+    display: block;
+    position: absolute;
+    right: 145px;
+    top: 61px;
+    height: 91%;
+    width: 35%;
+    border-left: groove 3px;
+}
+.fourcard img{
+        width: 250px;
+        height: 200px;
+        margin-right: 100px;
+        margin-left: 120px;
+        margin-top: 55px;
+        margin-bottom: 20px;
+}
+.fourcard h4 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: large;
+}
+.fourcard p{
+    font-size: 10px;
+    font-weight: 50;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: rgb(179, 173, 173);
+}
+.fourcard a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.con{
+    background-color: transparent;
+    width: 100px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 8px;
+margin-top: 55px;
+margin-left: 15px;
+border: solid 1px;
+}
+.sm{
+    position: absolute;
+    right: 10px;
+    bottom: 93px;
+}
